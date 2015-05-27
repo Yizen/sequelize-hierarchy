@@ -175,3 +175,7 @@ Now supports all Sequelize dialects.
 ## 0.2.13
 
 * Remove relative path to sequelize in tests
+
+## 0.2.14
+
+* Upgraded to match bc changes in sequelize v3.x.x
