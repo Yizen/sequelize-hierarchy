@@ -64,7 +64,7 @@ describe(Support.getTestDialectTeaser('Tests'), function () {
 			folder.isHierarchy({camelThrough: true});
 
 			expect(folder.attributes.hierarchyLevel.type).not.to.equal(Sequelize.STRING);
-			expect(folder.attributes.parentId.references).to.equal('folders');
+			expect(folder.attributes.parentId.references.model).to.equal('folders');
 		});
 	});
 
